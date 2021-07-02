@@ -242,17 +242,17 @@ let Ban = message.mentions.members.first();
 
 let hokar = args.slice(1).join(" "); 
 
-if(!args[0]) return message.channel.send('tkaya kasek mention bka bo ban krdn') 
+if(!args[0]) return message.channel.send('تکایە ئەم کەسە دیاری بکە کە دەتەوێت باندی بکەی') 
 
-if(!Ban) return message.channel.send(`${args[0]} am kasa bwny niya la server`) 
+if(!Ban) return message.channel.send(`${args[0]} ئەم کەسە بونی نیە لە سێرڤەر`) 
 
-if(!hokar) return message.channel.send('hokarek dyare bka') 
+if(!hokar) return message.channel.send('هۆکارێک بڵێ') 
 
  
 
 if(!Ban.bannable) { 
 
-return message.channel.send('to natwane am kasa ban bkai') 
+return message.channel.send('تۆ ناتوانی ئەم کەسە باند بکەی') 
 
  
 
