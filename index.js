@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login("");
+client.login("ODYwNDgxMDI0NzMxNzc0OTc2.YN73Zw.6WdDPXe_iXhcfNlyKHGhy4V-Xws");
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -893,21 +893,21 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/progresshome)
+[{Support}](https://discord.gg/cfSzCXNVxx)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=860481024731774976&permissions=8&scope=bot)
 
 **{Developers Bot}** :
-Dev/<@701546840063082601>
+Dev/<@790265200770809857>
 
 **{Set Status}** :
 Online
 
 **{Time Create}** :
-19/6/2021
+2/7/2021
 
 **{Prefix Bot}** :
-$
+>
 
 `)
 
@@ -926,12 +926,12 @@ $
     .setDescription (`
 {Links}
 
-[{Support}](https://discord.gg/progresshome)
+[{Support}](https://discord.gg/cfSzCXNVxx)
 -
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)`)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=860481024731774976&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**{Support  Panda Bot}**`) 
+    .setTitle(`**{Support Bot}**`) 
     .setThumbnail(`https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png `)
     .setTimestamp()
     
