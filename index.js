@@ -452,11 +452,11 @@ message.guild.members.unban(unban,reason)
 const qala = new Discord.MessageEmbed()
  
   .setTitle('unBan')  
-    .addField('kase unban kraw ',unban)
+    .addField('ئەو کەسەی باندی لادرا ',unban)
  
-.addField('un ban kra la layan',message.author)
+.addField('بانی لادرا لە لایەن',message.author)
  
-.addField('ba hokare',reason)
+.addField('بە هۆکاری',reason)
 .setFooter('')
 message.channel.send(qala)
  
