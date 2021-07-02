@@ -15,8 +15,8 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(`https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png `)
-    .setTitle(`**Panda Help**`)
+    .setThumbnail(`https://images-ext-1.discordapp.net/external/IbPnF_c3u4LD-3uu0T7SJdHSDdR7pDyimrI9kmD0nIw/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png`)
+    .setTitle(`**Apple Help**`)
     .setDescription(`
 *** <a:emoji_23:852559927339253851>  | Prefix bot ***
 ***__>__***
