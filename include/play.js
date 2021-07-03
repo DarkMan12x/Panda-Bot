@@ -21,7 +21,7 @@ module.exports = {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
       const endembed = new MessageEmbed().setColor("RANDOM")
-        .setAuthor(`Music Queue ended.`, "https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png")
+        .setAuthor(`Music Queue ended.`, "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
       return queue.textChannel.send(endembed).catch(console.error);
     }
 
@@ -128,7 +128,7 @@ module.exports = {
     }
     
   let thumb;
-    if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/attachments/748095614017077318/769672148524335114/unknown.png";
+    if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024";
     else thumb = song.thumbnail.url;
 
     try {
@@ -137,7 +137,7 @@ module.exports = {
         .setURL(song.url)
         .setColor("RANDOM")
         .setImage(thumb)
-        .setThumbnail(`https://images-ext-1.discordapp.net/external/ywW90Qq3ButrY58SXGKsfdaHJ5Fl3fAX-jCt66kxq2k/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/323c09ffbcd4777d8b5d14ac80df56a5.png `)
+        .setThumbnail(`https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024`)
          .addField("👤 Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
         .addField("⏱ Length:", `\`${song.duration} Minutes\``, true)
         .addField("🔊 Volume:", `\`100\``, true)
@@ -176,7 +176,7 @@ module.exports = {
         let ms = (Number(minutes)*60+Number(seconds));   
         //get thumbnail
         let thumb;
-        if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/attachments/748095614017077318/769672148524335114/unknown.png";
+        if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024";
         else thumb = song.thumbnail.url;
         //define current time
         const seek = (queue.connection.dispatcher.streamTime - queue.connection.dispatcher.pausedTime) / 1000;
@@ -209,7 +209,7 @@ module.exports = {
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
           queue.connection.dispatcher.end();
-          const skipembed = new MessageEmbed().setColor("RANDOM").setAuthor(`${user.username} skipped the song.`, "https://cdn.discordapp.com/attachments/748633941912584333/753201474691137647/next.png")
+          const skipembed = new MessageEmbed().setColor("RANDOM").setAuthor(`${user.username} skipped the song.`, "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
           queue.textChannel.send(skipembed).catch(console.error);
 
           collector.stop();
@@ -223,13 +223,13 @@ module.exports = {
             queue.playing = !queue.playing;
             queue.connection.dispatcher.pause(true);
             const pausemebed = new MessageEmbed().setColor("PURPLE")
-              .setAuthor(`${user.username} paused the music.`, "https://cdn.discordapp.com/emojis/769912238236106793.png")
+              .setAuthor(`${user.username} paused the music.`, "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
             queue.textChannel.send(pausemebed).catch(console.error);
           } else {
             queue.playing = !queue.playing;
             queue.connection.dispatcher.resume();
             const playembed = new MessageEmbed().setColor("RANDOM")
-              .setAuthor(`${user.username} resumed the music!`, "https://cdn.discordapp.com/emojis/769912238236106793.png")
+              .setAuthor(`${user.username} resumed the music!`, "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
             queue.textChannel.send(playembed).catch(console.error);
           }
           break;
@@ -239,7 +239,7 @@ module.exports = {
           if (!canModifyQueue(member)) return;
           queue.loop = !queue.loop;
           const loopembed = new MessageEmbed().setColor("RANDOM")
-            .setAuthor(`Loop is now ${queue.loop ? " enabled" : " disabled"}`, "https://cdn.discordapp.com/emojis/769913064194834511.png")
+            .setAuthor(`Loop is now ${queue.loop ? " enabled" : " disabled"}`, "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
           queue.textChannel.send(loopembed).catch(console.error);
           break;
           //stop
@@ -247,7 +247,7 @@ module.exports = {
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
           queue.songs = [];
-          const stopembed = new MessageEmbed().setColor("RANDOM").setAuthor(`${user.username} stopped the music!`, "https://cdn.discordapp.com/emojis/769915194066862080.png")
+          const stopembed = new MessageEmbed().setColor("RANDOM").setAuthor(`${user.username} stopped the music!`, "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
           queue.textChannel.send(stopembed).catch(console.error);
           try {
             queue.connection.dispatcher.end();
