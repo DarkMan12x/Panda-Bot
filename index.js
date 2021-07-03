@@ -288,7 +288,7 @@ Ban.ban();
 
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("850779924352466984");
+  let channel = client.channels.cache.get("860795315488817163");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✔️ Join Server`)
@@ -302,7 +302,7 @@ client.on("guildCreate", guild => {
 
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("850779924352466984");
+  let channel = client.channels.cache.get("860795374250623028");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
@@ -315,7 +315,7 @@ client.on("guildDelete", guild => {
   channel.send(embed);
 });
 
-const channelid = "860483630802141184"    //id channele vc
+const channelid = "860794693600149504"    //id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
@@ -834,7 +834,7 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(`Type: ${PREFIX}help - Panda Bot`, { type: "PLAYING"});
+    client.user.setActivity(`Type: ${PREFIX}help - Apple Bot`, { type: "PLAYING"});
     client.user.setActivity(`Type: ${PREFIX}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
   
