@@ -52,7 +52,7 @@ Host: ${message.author}`)
         .random();
       channel.send(
         `**The winner of the giveaway for**
-\`hama\`
+\`giveaway\`
 🏅|${message.author}`
       );
     }, ms(args[0]));
