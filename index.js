@@ -315,16 +315,11 @@ client.on("guildDelete", guild => {
   channel.send(embed);
 });
 
-const channelid = "860794693600149504"    //id channele vc
-client.on("ready", () => {
-    const channel = client.channels.cache.get(channelid);
-    if (!channel) return console.error("The channel does not exist!");
-    channel.join().then(connection => {
-        console.log("Successfully connected.");
-    }).catch(e => {
-        console.error(e);
-    });
+client.on('ready', () => {
+var channel = client.channels.cache.get('860794693600149504');
+    if (channel) channel.join();
 });
+
 
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "neon")) {
