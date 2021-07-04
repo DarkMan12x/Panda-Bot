@@ -37,7 +37,8 @@ module.exports = {
 \`ban\` - \`unban\` - \`setnick\`
 \`roleadd\` - \`roleremove\` - \`vkick\`
 \`setprefix\` - \`clear\` - \`close\`
-\`open\` - \`senddm\`
+\`open\` - \`senddm\` - \`invites\`
+\`se\`
 
 <a:emoji_22:856127603345195019> **Gif Commands**
 \`boy\` - \`girl\` - \`couple\`
