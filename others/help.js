@@ -24,7 +24,7 @@ module.exports = {
 \`invite\` - \`support\` - \`about\`
 \`ping\` - \`prefix\` - \`uptime\`
 \`tinvites\` - \`sug\` - \`roleuser\`
-\`report\`
+\`report\` - \`se\` - \`invites\`
 
 <a:music:852559405718175744> **Music Commands**
 \`play\` - \`skip\` - \`skipto\`
@@ -37,8 +37,8 @@ module.exports = {
 \`ban\` - \`unban\` - \`setnick\`
 \`roleadd\` - \`roleremove\` - \`vkick\`
 \`setprefix\` - \`clear\` - \`close\`
-\`open\` - \`senddm\` - \`invites\`
-\`se\`
+\`open\` - \`senddm\`
+\`giveaway Set Time #channel
 
 <a:emoji_22:856127603345195019> **Gif Commands**
 \`boy\` - \`girl\` - \`couple\`
