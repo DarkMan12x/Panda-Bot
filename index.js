@@ -316,7 +316,7 @@ client.on("guildDelete", guild => {
 });
 
 client.on('ready', () => {
-var channel = client.channels.cache.get('860794693600149504');
+var channel = client.channels.cache.get('860460278504357908');
     if (channel) channel.join();
 });
 
