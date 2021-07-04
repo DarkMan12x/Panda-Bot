@@ -38,7 +38,7 @@ module.exports = {
 \`roleadd\` - \`roleremove\` - \`vkick\`
 \`setprefix\` - \`clear\` - \`close\`
 \`open\` - \`senddm\`
-\`giveaway Set Time #channel
+\`giveaway SetTime(d,h,m) #setChannel\`
 
 <a:emoji_22:856127603345195019> **Gif Commands**
 \`boy\` - \`girl\` - \`couple\`
