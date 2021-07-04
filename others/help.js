@@ -45,9 +45,6 @@ module.exports = {
 \`sad\` - \`cartoon\` - \`anime\`
 \`neon\`
 
-<a:Twitt3:852558825395453952> **Text Commands**
-\`Comming Soon\`
-
 <a:emoji_20:856127714804105216> **Game Commands**
 \`kiss\` - \`slap\` - \`hug\`
 
