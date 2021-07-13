@@ -718,7 +718,7 @@ message.reply("**Set Prefix Working ✅**")
     let channel = message.guild.channels.cache.find((x) => (x.name === "💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡" || x.name === "💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗦"))
  
     if(!channel) {
-      return message.channel.send("there is no channel with name - suggestions")
+      return message.channel.send("there is no channel with name - 💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡")
     }
  
  
