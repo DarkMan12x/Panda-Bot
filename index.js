@@ -715,7 +715,7 @@ message.reply("**Set Prefix Working ✅**")
       return message.channel.send("Please Give the Suggestion")
     }
  
-    let channel = message.guild.channels.cache.find((x) => (x.name === "suggestion" || x.name === "suggestions"))
+    let channel = message.guild.channels.cache.find((x) => (x.name === "💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡" || x.name === "💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗦"))
  
     if(!channel) {
       return message.channel.send("there is no channel with name - suggestions")
@@ -723,7 +723,7 @@ message.reply("**Set Prefix Working ✅**")
  
  
     let embed = new Discord.MessageEmbed()
-    .setAuthor("💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡: " + message.author.tag, message.author.avatarURL())
+    .setAuthor("suggestion: " + message.author.tag, message.author.avatarURL())
     .setThumbnail(message.author.avatarURL())
     .setColor("RANDOM")
     .setDescription(args.join(" "))
