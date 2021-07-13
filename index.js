@@ -723,16 +723,16 @@ message.reply("**Set Prefix Working ✅**")
  
  
     let embed = new Discord.MessageEmbed()
-    .setAuthor("SUGGESTION: " + message.author.tag, message.author.avatarURL())
+    .setAuthor("💮╟𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡: " + message.author.tag, message.author.avatarURL())
     .setThumbnail(message.author.avatarURL())
-    .setColor("#ff2050")
+    .setColor("RANDOM")
     .setDescription(args.join(" "))
     .setTimestamp()
  
  
     channel.send(embed).then(m => {
-      m.react("✅")
-      m.react("❌")
+      m.react("<a:emoji_22:864421387947081738>")
+      m.react("<a:emoji_21:864421403582660628>")
     })
  
  
