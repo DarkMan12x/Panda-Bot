@@ -287,7 +287,7 @@ Ban.ban();
 }}})
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("860795315488817163");
+  let channel = client.channels.cache.get("954310279053869086");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✔️ Join Server`)
@@ -301,7 +301,7 @@ client.on("guildCreate", guild => {
 
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("860795374250623028");
+  let channel = client.channels.cache.get("954310304941105202");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
@@ -315,7 +315,7 @@ client.on("guildDelete", guild => {
 });
 
 client.on('ready', () => {
-var channel = client.channels.cache.get('860794693600149504');
+var channel = client.channels.cache.get('953572243198312448');
     if (channel) channel.join();
 });
 
@@ -828,8 +828,8 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(`Type: ${PREFIX}help  - Apple Bot`, { type: "PLAYING"});
-    client.user.setActivity(`Type: ${PREFIX}help - >help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
+    client.user.setActivity(`Type: ${PREFIX}help  - Panda Bot`, { type: "PLAYING"});
+    client.user.setActivity(`Type: ${PREFIX}help -  | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
   
       }, (5000));
@@ -881,18 +881,18 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("About Apple Bot.", "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
+    .setAuthor("About Panda Bot.", "https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024")
     .setThumbnail(`https://cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png?size=1024 `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/cfSzCXNVxx)
+[{Support}](https://discord.gg/9qF4GM5bbg)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=860481024731774976&permissions=8&scope=bot)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)
 
 **{Developers Bot}** :
-Dev/<@790265200770809857>
+Dev/<@790681602245656618>
 
 **{Set Status}** :
 Online
@@ -920,9 +920,9 @@ Online
     .setDescription (`
 {Links}
 
-[{Support}](https://discord.gg/cfSzCXNVxx)
+[{Support}](https://discord.gg/9qF4GM5bbg)
 -
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=860481024731774976&permissions=8&scope=bot)`)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**{Support Bot}**`) 
