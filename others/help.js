@@ -20,27 +20,27 @@ module.exports = {
     .setDescription(`
 *** <a:emoji_23:852559927339253851>  | Prefix bot ***
 ***__>__***
-<a:emoji_7:859099940499750912> **User Commands**
+<a:emoji_19:946815040542089277>   **User Commands**
 \`invite\` - \`support\` - \`about\`
 \`ping\` - \`prefix\` - \`uptime\`
 \`tinvites\` - \`sug\` - \`roleuser\`
 \`report\` - \`se\` - \`invites\`
 
-<a:music:852559405718175744> **Music Commands**
+<a:emoji_17:954306775568486420> **Music Commands**
 \`play\` - \`skip\` - \`skipto\`
 \`stop\` - \`volume\` - \`nowplaying\`
 \`shuffle\` - \`search\` - \`resume\`
 \`remove\` - \`queue\` - \`loop\`
 \`lyrics\` - \`radio\`
 
-<a:Work:852558706708054056> **Moderation Commands**
+<a:Info:954307508309209118>  **Moderation Commands**
 \`ban\` - \`unban\` - \`setnick\`
 \`roleadd\` - \`roleremove\` - \`vkick\`
 \`setprefix\` - \`clear\` - \`close\`
 \`open\` - \`senddm\`
 \`giveaway SetTime(d,h,m) #setChannel\`
 
-<a:emoji_22:856127603345195019> **Gif Commands**
+<a:emoji_22:946815073815498783> **Gif Commands**
 \`boy\` - \`girl\` - \`couple\`
 \`sad\` - \`cartoon\` - \`anime\`
 \`neon\`
@@ -48,10 +48,10 @@ module.exports = {
 <a:emoji_20:856127714804105216> **Game Commands**
 \`kiss\` - \`slap\` - \`hug\`
 
-<a:SIA_money:859103987889864734> **Economy Commands**
+<a:emoji_15:944601443254554654> **Economy Commands**
 \`Comming Soon\`
 
-<a:dslink:859104935194656779> **Links**
+<a:dslink:954306419270778930> **Links**
 [Support](https://discord.gg/cfSzCXNVxx)
 [Invite](https://discord.com/api/oauth2/authorize?client_id=860481024731774976&permissions=8&scope=bot)
 `)
