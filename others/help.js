@@ -16,9 +16,9 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(`https://images-ext-1.discordapp.net/external/IbPnF_c3u4LD-3uu0T7SJdHSDdR7pDyimrI9kmD0nIw/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/860481024731774976/7cf79c0af1e076c14681c8368dcf9c4f.png`)
-    .setTitle(`**Apple Help**`)
+    .setTitle(`**Panda Help**`)
     .setDescription(`
-*** <a:emoji_23:852559927339253851>  | Prefix bot ***
+***  | Prefix bot ***
 ***__>__***
 <a:emoji_19:946815040542089277>   **User Commands**
 \`invite\` - \`support\` - \`about\`
@@ -45,15 +45,15 @@ module.exports = {
 \`sad\` - \`cartoon\` - \`anime\`
 \`neon\`
 
-<a:emoji_20:856127714804105216> **Game Commands**
+<a:emoji_20:954309707684794388> **Game Commands**
 \`kiss\` - \`slap\` - \`hug\`
 
 <a:emoji_15:944601443254554654> **Economy Commands**
 \`Comming Soon\`
 
 <a:dslink:954306419270778930> **Links**
-[Support](https://discord.gg/cfSzCXNVxx)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=860481024731774976&permissions=8&scope=bot)
+[Support](https://discord.gg/9qF4GM5bbg)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
