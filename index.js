@@ -994,5 +994,10 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
-
+client.on("guildCreate" , server => {
+if(server.memberCount < 100){
+server.leave()
+console.log("Leave Server -100 member")
+}
+});
 //Bot coded by Aquaman#5186 
