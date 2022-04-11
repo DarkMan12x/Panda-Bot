@@ -53,7 +53,7 @@ module.exports = {
 
 <a:dslink:954306419270778930> **Links**
 [Support](https://discord.gg/9qF4GM5bbg)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=917819704251387964&permissions=8&scope=bot)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=891007208039542814&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
